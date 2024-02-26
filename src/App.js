@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import OurStore from "./pages/OurStore";
+import Blog from "./pages/Blog";
+import ComparePages from "./pages/CompareProduct";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="store" element={<OurStore />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="comparepage" element={<ComparePages />} />
           </Route>
         </Routes>
       </BrowserRouter>
