@@ -64,6 +64,7 @@ const Footer = () => {
                       <BsLinkedin className="text-white fs-6" />
                     </a>
                     <a href="#">
+                      to=""
                       <BsYoutube className="text-white fs-5" />
                     </a>
                     <a href="#">
@@ -77,19 +78,22 @@ const Footer = () => {
               <h4 className="text-white mb-4">Information</h4>
               <div>
                 <div className="footer-links d-flex flex-column">
-                  <Link className="text-white py-2 mb-1" to="">
+                  <Link to="/privacypolicy" className="text-white py-2 mb-1">
                     Privacy Policy
                   </Link>
-                  <Link className="text-white py-2 mb-1" to="">
+                  <Link to="/RefundPolicy" className="text-white py-2 mb-1">
                     Refund Policy
                   </Link>
-                  <Link className="text-white py-2 mb-1" to="">
+                  <Link to="/ShippingPolicy" className="text-white py-2 mb-1">
                     Shipping Policy
                   </Link>
-                  <Link className="text-white py-2 mb-1" to="">
+                  <Link
+                    to="/termsandconditions"
+                    className="text-white py-2 mb-1"
+                  >
                     Terms & Conditions
                   </Link>
-                  <Link className="text-white py-2 mb-1" to="">
+                  <Link to="/blog" className="text-white py-2 mb-1">
                     Blogs
                   </Link>
                 </div>
